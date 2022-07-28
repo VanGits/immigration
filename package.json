@@ -33,10 +33,10 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "engines" : { 
+    ]
+   
+  },  "engines" : { 
     "npm" : "7.0.0",
     "node" : "16.15.1"
-  }
   }
 }
