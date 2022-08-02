@@ -78,3 +78,7 @@
     width: 100%;
     bottom: 0;
 }
+
+.featured__blog .landing__button button{
+    width: 100%;
+}

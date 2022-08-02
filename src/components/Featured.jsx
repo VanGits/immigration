@@ -21,10 +21,10 @@ const Featured = () => {
               <input
                 type="email"
                 id="email__form"
-                placeholder="Email Address"
+                placeholder="Enter your email address..."
               />
               <div className="landing__button">
-                <button>Try It</button>
+                <button>Get The Free Guide</button>
               </div>
         </div>
       </div>
