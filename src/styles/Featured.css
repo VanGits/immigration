@@ -11,7 +11,7 @@
 
 .Featured img{
     color: #fa5e50;
-    padding: 57.6px 0 86.4px;
+    padding: 27.6px 0 62.4px;
 }
 
 .featured__blog{
@@ -25,7 +25,7 @@
     flex-direction: column;
     z-index: 999;
     background-color: #fff;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
 }
 
 .featured__blog h5{
