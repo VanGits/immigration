@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 
 .Featured img{
@@ -22,6 +23,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 999;
+    background-color: #fff;
+    margin-bottom: 80px;
 }
 
 .featured__blog h5{
@@ -63,4 +67,14 @@
 
 .featured__blog .landing__email{
     max-width: 638px;
+}
+
+.Featured::after{
+    content: "";
+    height: 345px;
+    position: absolute;
+    background-color: #f7f9ff;
+   
+    width: 100%;
+    bottom: 0;
 }
