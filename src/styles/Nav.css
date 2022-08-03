@@ -41,6 +41,22 @@
    
 }
 
-.nav__Wrapper .nav__items .Home{
-    font-weight: 500;
+.nav__items .link{
+    text-decoration: none;
+    color: black;
+    transition: all 100ms ease-in-out;
 }
+.nav__items .link:hover{
+    color: rgba(0, 0, 0, 0.473);
+}
+
+.nav__items .link:focus{
+    font-weight: 600;
+}
+.nav__items .link:active{
+    font-weight: 600;
+}
+
+
+
+
