@@ -6,7 +6,7 @@ const Nav = () => {
         <nav className='Navigation'>
             <div className="row">
             <div className="nav__Wrapper">
-                <h1>LAKBAY</h1>
+                <h1 className='logo'>LAKBAY</h1>
                 <ul className='nav__items'>
                     <li className='Home'>Home</li>
                     <li>About</li>
