@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import AboutMain from "./components/AboutMain";
 import AboutSub from "./components/AboutSub";
+import AboutAction from "./components/AboutAction";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
               <Nav />,
               <AboutMain/>,
               <AboutSub/>,
+              <AboutAction/>,
               <Featured />,
               <Footer />,
             ]}
