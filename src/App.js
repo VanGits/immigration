@@ -12,6 +12,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import AboutMain from "./components/AboutMain";
+import AboutSub from "./components/AboutSub";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
             element={[
               <Nav />,
               <AboutMain/>,
-              
+              <AboutSub/>,
               <Featured />,
               <Footer />,
             ]}

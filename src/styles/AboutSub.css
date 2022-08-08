@@ -1,0 +1,64 @@
+.AboutSub {
+  
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.AboutSub h1 {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 1.1px;
+  font-weight: 800;
+}
+
+.about__quotes {
+  padding: 57.6px 0 86.4px;
+  display: flex;
+  align-items: space;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+}
+.about__question {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 425px;
+}
+
+.about__question p {
+  font-size: 18px;
+  margin-bottom: 20.8px;
+  line-height: 1.6;
+}
+
+.about__quote {
+  max-width: 550px;
+  padding: 60px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-width: 1px 1px 6px;
+  border-style: solid;
+  border-color: rgb(230, 230, 230) rgb(230, 230, 230) #fa5e50;
+  border-image: initial;
+}
+
+.about__quote h2 {
+  color: #fa5e50;
+  font-size: 26px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.about__quote img {
+  max-width: 85px;
+  margin-top: 60px;
+}
