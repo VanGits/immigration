@@ -18,6 +18,7 @@ const AboutAction = () => {
         <img src={forbes} alt="" />
         <img src={forbes} alt="" />
         <img src={forbes} alt="" />
+        <img src={forbes} alt="" />
       </div>
     </div>
   );
