@@ -14,6 +14,7 @@ import {
 import AboutMain from "./components/AboutMain";
 import AboutSub from "./components/AboutSub";
 import AboutAction from "./components/AboutAction";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
             path="/newsletter"
             element={[
               <Nav />,
+              <Newsletter/>,
+              <Footer/>
+            
            
             ]}
           />
