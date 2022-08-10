@@ -34,7 +34,7 @@ const Testimonials = () => {
             <div className="testimonals__comments">
               <img src={jeff} alt="" />
               <p id="testimonials-desc">
-                Brian’s SEO knowledge is insane. If you want higher rankings,
+                Lakbay is insane. If you want higher rankings,
                 you need to read his stuff – he’s the Unicorn among a sea of
                 donkey SEOs.
               </p>

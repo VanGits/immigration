@@ -9,7 +9,7 @@ const Featured = () => {
       <img src={wave} alt="" />
       <div className="featured__blog">
         <h5>FEATURED BLOG</h5>
-        <h1>SEO in 2022: The Definitive Guide</h1>
+        <h1>Lakbay in 2022: The Definitive Guide</h1>
         <p>
           Learn the exact SEO strategies, tips and tactics that are working
           great right now.
