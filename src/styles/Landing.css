@@ -90,15 +90,15 @@
 }
 
 .landing__email-noti{
-  margin-top: 12px;
-  max-width: 505px;
+  margin-top: 22px;
+  max-width: 490px;
   width: 100%;
   background-color: #3243b2;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
+  padding: 8px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -111,7 +111,7 @@
   justify-content: flex-end;
   align-items: center;
 
-  max-width: 505px;
+  max-width: 490px;
   width: 100%;
   
   
