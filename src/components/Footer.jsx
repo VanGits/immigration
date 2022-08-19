@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer__div-1">
           <h1 className="logo">ACROSSBORDERS</h1>
           <h2 className="wow">
-            Next-level SEO training and link building strategies
+          Go Across Borders and Find Your Next Big Opportunity
           </h2>
         </div>
         <div className="footer__div-2">
