@@ -20,7 +20,7 @@ const Footer = () => {
           <p>Newsletter</p>
         </div>
         <div className="footer__div-3">
-          <h4>Company</h4>
+          <h4>Menu</h4>
           <p>Home</p>
           <p>About</p>
           <p>Contact</p>
