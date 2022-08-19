@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="Navigation">
       <div className="row">
         <div className="nav__Wrapper">
-          <h1 className="logo">LAKBAY</h1>
+          <h1 className="logo">ACROSS BORDERS</h1>
           <ul className="nav__items">
             <Link to="/" className="link">
               <li className="Home">Home</li>

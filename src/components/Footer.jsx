@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="Footer">
       <div className="footer__main">
         <div className="footer__div-1">
-          <h1 className="logo">LAKBAY</h1>
+          <h1 className="logo">ACROSSBORDERS</h1>
           <h2 className="wow">
             Next-level SEO training and link building strategies
           </h2>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__trademark">
-        <p>© 2022 Lakbay is a Trademark of Lakbay Inc</p>
+        <p>© 2022 AcrossBorders is a Trademark of AcrossBorders Inc</p>
         <div className="footer__terms">
             <p>Terms of Service</p>
             <p>Privacy Notice</p>

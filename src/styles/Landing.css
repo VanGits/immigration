@@ -15,7 +15,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  height: 615px;
+  height: 675px;
   background: linear-gradient(#fdfdfe, #f9f9fc, #eef0f7);
 }
 
@@ -30,18 +30,23 @@
 }
 
 .landing__wrapper h1 {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 800;
   line-height: 1.3;
   letter-spacing: 0.5px;
 }
 
 .landing__text {
-  max-width: 600px;
+  max-width: 550px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+}
+
+.Landing .landing__button button{
+  width: 100% !important;
 }
 
 .landing__box {
@@ -84,8 +89,22 @@
   margin-top: 10px;
 }
 
+.landing__email-noti{
+  margin-top: 12px;
+  max-width: 505px;
+  width: 100%;
+  background-color: #3243b2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
 .landing__email {
-  margin-top: 42px;
+  
   display: flex;
   position: relative;
 
@@ -96,6 +115,18 @@
   width: 100%;
   
   
+}
+
+.landing__email #email__form{
+  border-radius: 0;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.landing__email-p{
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
 }
 
 #email__form {
@@ -133,6 +164,11 @@
    
     position: absolute;
     
+}
+
+.landing__email .landing__button button{
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 
 .landing__button button{

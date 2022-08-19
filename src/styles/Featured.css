@@ -78,6 +78,59 @@
     width: 100%;
     bottom: 0;
 }
+#featured__form {
+    width: 100%;
+    
+    height: 3.7875rem;
+    padding: 1.05rem 1.2rem;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #1d2b35;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: 300ms all ease;
+    font-size: 11.25px;
+    font-size: 1.125rem;
+    border-color: #ccd3e8;
+  
+  }
+  #featured__form:focus {
+    outline: none !important;
+    border-color: #3243b2;
+    box-shadow: 0 0 1px #3243b2;
+  }
+  
+  #featured__form::placeholder{
+      color: rgba(128, 128, 128, 0.712);
+  }
+
+  .featured__button button{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 16px 18px;
+    width: 170px;
+    height: 61px;
+    border-radius: 6px;
+    border: none;
+    background-color: #fa5e50;
+    color: white;
+    font-weight: 600;
+    transition: all 300ms ease-in;
+}
+
+.featured__button{
+    position: absolute;
+    
+}
+.featured__button button{
+    width: 100%;
+}
+
 
 .featured__blog .landing__button button{
     width: 100%;

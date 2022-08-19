@@ -5,13 +5,15 @@ import huff from "../assets/huffpost-logo.svg";
 import inc from "../assets/inc-logo.svg";
 import entre from "../assets/entrepreneur-logo.svg";
 import jeff from "../assets/jeff.jpg";
+import sap from "../assets/SAP.svg";
+import sap2 from "../assets/SAP2.svg";
 
 const Testimonials = () => {
   return (
     <div className="Testimonals">
       <div className="row-landing">
         <div className="testimonals__companies">
-          <h4>LAKBAY HAS BEEN FEATURED ON</h4>
+          <h4>ACROSSBORDERS HAS BEEN FEATURED ON</h4>
           <div className="testimonals__companies-logos">
             <div>
               <img src={forbes} alt="" />
@@ -32,30 +34,35 @@ const Testimonials = () => {
 
           <div className="comments__wrapper">
             <div className="testimonals__comments">
-              <img src={jeff} alt="" />
+              <img src={sap} alt="" />
               <p id="testimonials-desc">
-                Lakbay is insane. If you want higher rankings,
-                you need to read his stuff – he’s the Unicorn among a sea of
-                donkey SEOs.
+                “I had a complicated immigration case that took years to go
+                through the path to citizenship. As a recently naturalized
+                citizen of the United States, AB’s legal team remained
+                steadfastly supportive through the years and responded promptly
+                to questions. They dealt with my case with commendable
+                transparency, and helped to bring in another immigration
+                sub-specialist colleague when needed. I recommend working with
+                their team to anyone seeking a competent, caring and astute team
+                of immigration attorneys.”
               </p>
               <div>
-                <h6>Jeff Bezos </h6>
-                <h6>·</h6> <h5> Amazon</h5>
+                <h6>- Olatunfi </h6>
               </div>
             </div>
           </div>
           <div className="comments__wrapper">
             <div className="testimonals__comments">
-              <img src={jeff} alt="" />
+              <img src={sap2} alt="" />
               <p id="testimonials-desc">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Inventore, esse nesciunt. Quidem, commodi quasi magni neque qui
-                amet? Numquam magnam non expedita iure hic corporis pariatur
-                suscipit quaerat et? Officiis.
+                “We hired AB for our J-1 waiver, H1-B (+ renewal) and green card
+                application over the course of 5 years. They always provided
+                excellent service, answering all our questions promptly and made
+                sure our case was timely managed. Highly recommended!”
               </p>
               <div>
-                <h6>Larry Kim </h6>
-                <h6>·</h6> <h5>WordStream</h5>
+                <h6>- Philippe and M.</h6>
+                {/* <h6>·</h6> <h5>WordStream</h5> */}
               </div>
             </div>
           </div>
