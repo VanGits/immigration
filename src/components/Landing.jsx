@@ -11,8 +11,7 @@ const Landing = () => {
         <div className="landing__wrapper">
           <div className="landing__text">
             <h1>
-              Legally Go Across Borders and Find Your Next Big Opportunity in
-              3-4 Years!”
+              Legally Go Across Borders and Find Your Next Big Opportunity!
             </h1>
             <div className="landing__box">
               <div className="landing__box-img">
@@ -29,7 +28,7 @@ const Landing = () => {
               </div>
             </div>
             <div className="landing__email-noti">
-              <p className="landing__email-p">Stay in the know with our newsletter about the most recent immigration laws, news, and updates. We promise we won’t spam you!</p>
+              <p className="landing__email-p">*Stay in the know with our newsletter about the most recent immigration laws, news, and updates. We promise we won’t spam you!</p>
             </div>
             <div className="landing__email">
               <input

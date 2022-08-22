@@ -15,7 +15,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  height: 675px;
+  height: 625px;
   background: linear-gradient(#fdfdfe, #f9f9fc, #eef0f7);
 }
 
@@ -90,17 +90,16 @@
 }
 
 .landing__email-noti{
-  margin-top: 22px;
+  margin-top: 42px;
   max-width: 490px;
   width: 100%;
-  background-color: #3243b2;
-  color: white;
+ 
+  color: #1d2b35;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  margin-bottom: 12px;
+ 
 }
 
 .landing__email {
@@ -117,16 +116,11 @@
   
 }
 
-.landing__email #email__form{
-  border-radius: 0;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-}
 
 .landing__email-p{
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #email__form {
@@ -164,11 +158,6 @@
    
     position: absolute;
     
-}
-
-.landing__email .landing__button button{
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
 }
 
 .landing__button button{
